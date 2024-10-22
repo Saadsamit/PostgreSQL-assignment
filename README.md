@@ -67,8 +67,8 @@ SELECT c.course_name, count(e.student_id) as students_enrolled FROM courses c
 **Ans:** 
 
 COUNT: This function determines the total number of rows that meet a specified condition. It can count all rows or only those with non-null values in a particular column.
--
+##
 SUM: This function calculates the total sum of a numeric column across all rows that meet a specific condition. It is used to determine totals, such as sales or quantities.
--
+##
 AVG: This function computes the average value of a numeric column for all rows that match a given condition. It helps assess mean values, like average salaries or average scores.
 
